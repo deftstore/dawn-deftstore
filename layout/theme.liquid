@@ -244,9 +244,11 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-
+<div id="top-header-section">
     {% section 'announcement-bar' %}
     {% section 'header' %}
+
+  </div>
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
