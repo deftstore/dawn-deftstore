@@ -2956,6 +2956,15 @@ details-disclosure > details {
 }
 
 /* custom css */
+div#top-header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+    background: none;
+    transform: translateZ(0);
+}
 sticky-header, sticky-header header {
     background: none!important;
 }
