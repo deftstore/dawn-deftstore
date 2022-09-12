@@ -2954,3 +2954,8 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+/* custom css */
+sticky-header, sticky-header header {
+    background: none!important;
+}
