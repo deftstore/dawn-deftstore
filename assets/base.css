@@ -3000,6 +3000,9 @@ sticky-header, sticky-header header {
     margin: 0px;
     border-radius: 50%;
 }
+.custom-collection .img-grid img {
+    border-radius: 50%;
+}
 .custom-collection .card.card--standard.card--media.card--extend-height {
     position: relative;
     display: block;
