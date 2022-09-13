@@ -3052,7 +3052,7 @@ slideshow-component .slider-button:not([disabled]):hover {
 slideshow-component .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
     border-color: #fff;
 }
-.custom-collection .card__inner::after {
+.custom-collection .card--standard .card__inner:after {
     content:none;
 }
 
