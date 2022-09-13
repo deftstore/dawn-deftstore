@@ -3020,15 +3020,15 @@ p.sub-text:after {
     display: flex;
     padding: 0rem 5rem 0rem 0rem;
 }
-.slider-buttons {
+.slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile{
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.slider-button {
+slideshow-component .slider-button {
     color: #fff;
 }
-.slider-counter__link--active.slider-counter__link--dots .dot {
+slideshow-component .slider-counter__link--active.slider-counter__link--dots .dot {
     background-color: #fff;
     border-color:#fff;
 }
