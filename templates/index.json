@@ -174,7 +174,7 @@
         "cus_class": "",
         "space_around": true,
         "alt": false,
-        "code": "<h2 class=\"cus-heading\">Your Heading<\/h2>\n<p class=\"sub-head\">your subtext write here, loreum ipsum<\/p>\n<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+        "code": "<h2 class=\"heading\">Your Heading<\/h2>\n<p class=\"sub-text\">your subtext write here, loreum ipsum<\/p>\n<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
       }
     },
     "image_banner": {
