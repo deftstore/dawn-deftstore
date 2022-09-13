@@ -3025,3 +3025,10 @@ p.sub-text:after {
     right: 0;
     bottom: 0;
 }
+.slider-button {
+    color: #fff;
+}
+.slider-counter__link--active.slider-counter__link--dots .dot {
+    background-color: #fff;
+    border-color:#fff;
+}
