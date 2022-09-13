@@ -2968,13 +2968,13 @@ div#top-header-section {
 sticky-header, sticky-header header {
     background: none!important;
 }
-.custom-content .custom__item {
+.custom-collection .custom__item {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.custom-content {
+.custom-collection {
     display: flex;
     flex-direction: row;
     padding: 80px 0px;
@@ -2984,7 +2984,7 @@ sticky-header, sticky-header header {
     width: 28%;
     margin: 0.5rem;
 }
-.custom-content .card__content {
+.custom-collection .card__content {
     position: absolute;
     z-index: 99;
     top: 0%;
@@ -2998,10 +2998,10 @@ sticky-header, sticky-header header {
     padding: 0px;
     margin: 0px;
 }
-.custom-content .card.card--standard.card--media.card--extend-height {
+.custom-collection .card.card--standard.card--media.card--extend-height {
     position: relative;
     display: block;
 }
-.custom-content h3.card__heading {
+.custom-collection h3.card__heading {
     color: #fff;
 }
