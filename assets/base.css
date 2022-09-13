@@ -2984,3 +2984,14 @@ sticky-header, sticky-header header {
     width: 28%;
     margin: 0rem 1rem;
 }
+.custom-content .card__content {
+    position: absolute;
+    z-index: 99;
+    top: 30%;
+    left: 25%;
+    transform: translate(0%,0%);
+}
+.custom-content .card.card--standard.card--media.card--extend-height {
+    position: relative;
+    display: block;
+}
