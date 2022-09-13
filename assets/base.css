@@ -2970,10 +2970,17 @@ sticky-header, sticky-header header {
 }
 .custom-content .custom__item {
     display: flex;
-    width: 50%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .custom-content {
     display: flex;
     flex-direction: row;
     padding: 80px 0px;
+}
+.img-grid {
+    display: block;
+    width: 28%;
+    margin: 0rem 1rem;
 }
