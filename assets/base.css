@@ -2973,6 +2973,7 @@ sticky-header, sticky-header header {
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
+   align-items:center;
 }
 .custom-collection {
     display: flex;
