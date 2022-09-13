@@ -3016,3 +3016,7 @@ p.sub-text:after {
     max-width: 200px;
     margin-top: 10px;
 }
+.left-part-sec {
+    display: flex;
+    padding: 0rem 5rem 0rem 0rem;
+}
