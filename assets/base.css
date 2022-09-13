@@ -3006,3 +3006,13 @@ sticky-header, sticky-header header {
 .custom-collection h3.card__heading {
     color: #fff;
 }
+p.sub-text:after {
+    content: "";
+    position: relative;
+    display: block;
+    background-color: #707c6e;
+    height: 2px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
