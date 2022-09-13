@@ -2998,6 +2998,7 @@ sticky-header, sticky-header header {
     background-color: #00000024;
     padding: 0px;
     margin: 0px;
+    border-radius: 50%;
 }
 .custom-collection .card.card--standard.card--media.card--extend-height {
     position: relative;
