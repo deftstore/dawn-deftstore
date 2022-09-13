@@ -3033,7 +3033,7 @@ slideshow-component .slider-button,
 slideshow-component .slider-button:hover{
     color: #fff;
 }
-.slider-counter__link--dots .dot{
+slideshow-component .slider-counter__link--dots .dot{
   border-color:#fff;
 }
 slideshow-component .slider-counter__link--active.slider-counter__link--dots .dot {
@@ -3043,3 +3043,8 @@ slideshow-component .slider-counter__link--active.slider-counter__link--dots .do
 .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
     border-color: #fff;
 }
+
+
+
+
+
