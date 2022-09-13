@@ -2995,3 +2995,6 @@ sticky-header, sticky-header header {
     position: relative;
     display: block;
 }
+.custom-content h3.card__heading {
+    color: #fff;
+}
