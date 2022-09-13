@@ -121,6 +121,62 @@
         "padding_bottom": 36
       }
     },
+    "1663047205fe90dd24": {
+      "type": "Collection-Text",
+      "blocks": {
+        "166304720570444b35-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "b04d7bd5-3e28-4054-9edd-0b93bc4988ee": {
+          "type": "collection",
+          "settings": {
+            "collection": "candles"
+          }
+        },
+        "ad6c6c8e-a752-4049-bdbe-c872bc4ba89c": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-toys"
+          }
+        },
+        "d31711d7-6397-42ea-b627-b35edd106801": {
+          "type": "collection",
+          "settings": {
+            "collection": "homewear"
+          }
+        },
+        "8b6b2f27-716b-46d3-acf2-e9c1d748a9c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "plants"
+          }
+        },
+        "140263ad-e85b-4068-8f09-c77164512377": {
+          "type": "collection",
+          "settings": {
+            "collection": "socks"
+          }
+        }
+      },
+      "block_order": [
+        "166304720570444b35-0",
+        "b04d7bd5-3e28-4054-9edd-0b93bc4988ee",
+        "ad6c6c8e-a752-4049-bdbe-c872bc4ba89c",
+        "d31711d7-6397-42ea-b627-b35edd106801",
+        "8b6b2f27-716b-46d3-acf2-e9c1d748a9c3",
+        "140263ad-e85b-4068-8f09-c77164512377"
+      ],
+      "settings": {
+        "full_width": false,
+        "cus_class": "",
+        "space_around": true,
+        "alt": false,
+        "code": "<h2 class=\"cus-heading\">Your Heading<\/h2>\n<p class=\"sub-head\">your subtext write here, loreum ipsum<\/p>\n<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -281,6 +337,7 @@
   "order": [
     "16629645634ba03edb",
     "multicolumn",
+    "1663047205fe90dd24",
     "image_banner",
     "rich_text",
     "featured_collection",
