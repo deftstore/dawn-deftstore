@@ -3026,6 +3026,9 @@ p.sub-text:after {
     bottom: 0;
     z-index:999;
 }
+.slideshow__autoplay path {
+    display: none;
+}
 slideshow-component .slider-button,
 slideshow-component .slider-button:hover{
     color: #fff;
