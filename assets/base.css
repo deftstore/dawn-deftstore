@@ -3033,6 +3033,9 @@ slideshow-component .slider-button,
 slideshow-component .slider-button:hover{
     color: #fff;
 }
+.slider-counter__link--dots .dot{
+  border-color:#fff;
+}
 slideshow-component .slider-counter__link--active.slider-counter__link--dots .dot {
     background-color: #fff;
     border-color:#fff;
