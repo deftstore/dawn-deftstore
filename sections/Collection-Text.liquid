@@ -8,81 +8,20 @@
   <div class="page-width">
 {%- endunless -%}
   <div class="custom-content">
-  
-    <div class="custom__item small--one-whole two-fifths align--center text-left feat-left">
-      
-<!--       <div class="custom__item-inner custom__item-inner--{{ block.type }}{% if block.settings.image == blank and block.type == 'image' %} custom__item-inner--placeholder-image{% endif %}">
-         -->
-<!--             {%- if section.settings.code != blank -%}
-              <div class="rte">
-                {{ section.settings.code }}
-              </div>
-            {%- else -%}
+    <div class="custom__item small--one-whole two-fifths align--center text-left part-left">      
+       <div class="left-part-sec">
+         {%- if section.settings.code != blank -%}
+           <div class="rte">
+             {{ section.settings.code }}
+           </div>
+           {%- else %}
               <div class="rte">
                 {{ 'home_page.onboarding.no_content' | t }}
               </div>
-            {%- endif -%}  -->
-      
-      
-      
-       {%- for block in section.blocks -%}  
-    
-    {%- case block.type -%}
-      
-           {%- when 'collection' -%}
-      
-    
-     <div class="left-section {{block.settings.cusclass}} {% if forloop.first == true %} active  {% endif %}">
-        {%- if section.settings.code != blank -%}
-              <div class="rte">
-                {{ section.settings.code }}
-              </div>
-         {%- else %}
-           <div class="rte">
-                {{ 'home_page.onboarding.no_content' | t }}
-              </div>
-         {%- endif %}
-       </div>
-         
-        
-        
-       {%- when 'block' -%}
-       <div class="left-section {{block.settings.cusclass}} {% if forloop.first == true %} active  {% endif %}">
-         {% if block.settings.dheading != blank %}
-         <div class="rte">
-            <h2 class="cus-heading">{{ block.settings.dheading }}</h2>
-			<p class="sub-head">{{ block.settings.dsubtext }}</p>
-			<p>{{ block.settings.dtext }}</p>
-         </div>
-         {%- else %}
-           <div class="rte">
-            <h2 class="cus-heading">STYLE &amp; PURPOSE</h2>
-			<p class="sub-head">for Parents, Professionals, and Life</p>
-			<p>Every seam was created with intention for the needs of busy moms and dads. Deciding between minimal design and practicality is no longer required. Select the Ayla Bag features to find out more.</p>
-         </div>
-         {%- endif %}
-       </div>
-    
-     {%- endcase -%}
-
-  {%- endfor -%}
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        
-       
-<!--       </div> -->
-    
+          {%- endif %}
+        </div>
     </div>
-    
-     <div class="custom__item small--one-whole three-fifths align--center grid-coll">
-    
+    <div class="custom__item small--one-whole three-fifths align--center part-right">
     {%- for block in section.blocks -%}
     {%- liquid
       case block.settings.width
@@ -99,75 +38,32 @@
         when '100%'
           assign block_width = 'one-whole'
       endcase
-    -%}
-   
-    
-    
-    {%- case block.type -%}
-         
-        
-          {%- when 'collection' -%}
-    
-    <div class="img-col">
-      
-      <div class="custom__item-inner custom__item-inner--{{ block.type }}{% if block.settings.image == blank and block.type == 'image' %} custom__item-inner--placeholder-image{% endif %}">
-        
-        <div class="grid-coll">
-              {% render 'card-collection',
-                card_collection: block.settings.collection,
-                media_aspect_ratio: 'adapt',
-                columns: 2,
-                extend_height: true
-          %}
+    -%}  
+      <div class="img-grid">
+        <div class="custom__item-inner custom__item-inner--{{ block.type }}{% if block.settings.image == blank and block.type == 'image' %} custom__item-inner--placeholder-image{% endif %}">
+          <div class="grid-column">
+            {% render 'card-collection',
+               card_collection: block.settings.collection,
+               media_aspect_ratio: 'adapt',
+               columns: 2,
+               extend_height: true
+            %}
+          </div>
         </div>
-        
-          
-       
       </div>
+    {%- endfor -%}
     </div>
-       {%- when 'block' -%}
-       <div class="outer-section">
-         
-         <div class="innerview" style="background:url({{ block.settings.image |img_url: '300x' }});background-size: cover;background-position: center;height:180px;width:auto;display:flex;align-items:center;justify-content:center;">
-           {% if block.settings.text != blank %} 
-             <a href="#featured" id="{{block.settings.cusclass}}" class="featlink" >
-               <h4>{{ block.settings.subtext }}</h4>
-               <h3>{{ block.settings.text }}</h3>
-             </a>
-           {% endif %}
-         </div>
-       </div>
-    
-     {%- endcase -%}
-
-  {%- endfor -%}
-       
-    </div>
-    
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-    
     <script type="text/javascript">
- $(document).on("click",".featlink", function (e) {
-   var clickedBtnID = $(this).attr('id'); // or var clickedBtnID = this.id
-   //alert(clickedBtnID);
-    $(".left-section").removeClass("active");
-   $("."+ clickedBtnID).addClass("active");
-  
-});
-</script>
-    
-<!--     <script type="text/javascript">
- $(document).on("mouseover",".featlink", function (e) {
-   var clickedBtnID = $(this).attr('id'); // or var clickedBtnID = this.id
-   //alert(clickedBtnID);
-    $(".left-section").removeClass("active");
-   $("."+ clickedBtnID).addClass("active");
-  
-});
-</script> -->
-    
-       
-  {%- if section.blocks.size == 0 -%}
+     $(document).on("click",".featlink", function (e) {
+       var clickedBtnID = $(this).attr('id'); // or var clickedBtnID = this.id
+       //alert(clickedBtnID);
+        $(".left-section").removeClass("active");
+       $("."+ clickedBtnID).addClass("active");
+      
+    });
+    </script>    
+   {%- if section.blocks.size == 0 -%}
     <div class="page-width">
       <div class="grid">
         <div class="grid__item">
@@ -189,11 +85,9 @@
   </div>
 {%- endif -%}
 
-
-
 {% schema %}
   {
-    "name": "Custom Collection content",
+    "name": "Collection Grid",
     "max_blocks":16,
     "settings": [
       {
@@ -241,7 +135,7 @@
     ],
     "presets": [
       {
-        "name": "Custom content",
+        "name": "Collection Grid",
         "blocks": [
           {
             "type": "collection"
