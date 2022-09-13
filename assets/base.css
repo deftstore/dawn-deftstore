@@ -2968,3 +2968,12 @@ div#top-header-section {
 sticky-header, sticky-header header {
     background: none!important;
 }
+.custom-content .custom__item {
+    display: flex;
+    width: 50%;
+}
+.custom-content {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0px;
+}
