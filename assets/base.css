@@ -2982,7 +2982,7 @@ sticky-header, sticky-header header {
 .img-grid {
     display: block;
     width: 28%;
-    margin: 0rem 1rem;
+    margin: 0.5rem;
 }
 .custom-content .card__content {
     position: absolute;
