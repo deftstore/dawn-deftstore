@@ -332,6 +332,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16631390880b2cb6eb": {
+      "type": "image-with-text",
+      "blocks": {
+        "16631390888c246f87-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Your Company",
+            "heading_size": "h1"
+          }
+        },
+        "16631390888c246f87-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A day at the pool or lounging by the sea calls for an unexpected and fresh swimsuit update.<\/p><p><strong>Some Important points:<br\/><br\/><\/strong>Our collection of swimwear has you covered. Whether you're looking for a classic one-piece, a dazzling two-piece bikini or a luxe cover-up that will go from the sand to the city, you'll be ready to soak up the sunshine in no time.<\/p><p>When it comes to putting together the perfect beach outfit, our collection of swimwear has you covered. Whether you're looking for a classic one-piece, a dazzling two-piece bikini or a luxe cover-up that will go from the sand to the city, you'll be ready to soak up the sunshine in no time.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16631390888c246f87-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16631390888c246f87-0",
+        "16631390888c246f87-1",
+        "16631390888c246f87-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/protrait1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -342,6 +386,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video"
+    "video",
+    "16631390880b2cb6eb"
   ]
 }
