@@ -177,6 +177,50 @@
         "code": "<h2 class=\"heading\">Your Heading<\/h2>\n<p class=\"sub-text\">your subtext write here, loreum ipsum<\/p>\n<p>We believe in beauty on the outside, but real beauty is created by taking just as much care on the inside. The most important principle in the development of our products is that everything we use in and on our bodies must be safe and as natural as possible. Because what's not safe enough for your mouth, we don't use for your skin and hair. Our products are therefore all free of parabens, sulphates and mineral oils.<\/p>"
       }
     },
+    "16631390880b2cb6eb": {
+      "type": "image-with-text",
+      "blocks": {
+        "16631390888c246f87-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Your Company",
+            "heading_size": "h1"
+          }
+        },
+        "16631390888c246f87-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A day at the pool or lounging by the sea calls for an unexpected and fresh swimsuit update.<\/p><p><strong>Some Important points:<br\/><br\/><\/strong>Our collection of swimwear has you covered. Whether you're looking for a classic one-piece, a dazzling two-piece bikini or a luxe cover-up that will go from the sand to the city, you'll be ready to soak up the sunshine in no time.<\/p><p>When it comes to putting together the perfect beach outfit, our collection of swimwear has you covered. Whether you're looking for a classic one-piece, a dazzling two-piece bikini or a luxe cover-up that will go from the sand to the city, you'll be ready to soak up the sunshine in no time.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16631390888c246f87-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16631390888c246f87-0",
+        "16631390888c246f87-1",
+        "16631390888c246f87-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/protrait1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -332,61 +376,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16631390880b2cb6eb": {
-      "type": "image-with-text",
-      "blocks": {
-        "16631390888c246f87-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Your Company",
-            "heading_size": "h1"
-          }
-        },
-        "16631390888c246f87-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A day at the pool or lounging by the sea calls for an unexpected and fresh swimsuit update.<\/p><p><strong>Some Important points:<br\/><br\/><\/strong>Our collection of swimwear has you covered. Whether you're looking for a classic one-piece, a dazzling two-piece bikini or a luxe cover-up that will go from the sand to the city, you'll be ready to soak up the sunshine in no time.<\/p><p>When it comes to putting together the perfect beach outfit, our collection of swimwear has you covered. Whether you're looking for a classic one-piece, a dazzling two-piece bikini or a luxe cover-up that will go from the sand to the city, you'll be ready to soak up the sunshine in no time.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16631390888c246f87-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16631390888c246f87-0",
-        "16631390888c246f87-1",
-        "16631390888c246f87-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/protrait1.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "16629645634ba03edb",
     "multicolumn",
     "1663047205fe90dd24",
+    "16631390880b2cb6eb",
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
-    "16631390880b2cb6eb"
+    "video"
   ]
 }
