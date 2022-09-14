@@ -270,6 +270,59 @@
         "show_text_below": false
       }
     },
+    "1663149817bcbe601f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16631498171df9e580-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>\"<br\/>Awesome bag for kids or work!<br\/><\/strong>The Ayla bag is awesome! I love how well it keeps things organized, other diaper bags I've used are a black hole, but that doesn't happen with this bag because there is a spot for everything and you can open it all the way to find things. It also fits my laptop even when it's also full of baby stuff, which I love.<\/p><p><strong>JACOB<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631498171df9e580-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>\"<br\/>Awesome bag for kids or work!<br\/><\/strong>The Ayla bag is awesome! I love how well it keeps things organized, other diaper bags I've used are a black hole, but that doesn't happen with this bag because there is a spot for everything and you can open it all the way to find things. It also fits my laptop even when it's also full of baby stuff, which I love.<\/p><p><strong>EMILYSEN<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631498171df9e580-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>\"<br\/>Awesome bag for kids or work!<br\/><\/strong>The Ayla bag is awesome! I love how well it keeps things organized, other diaper bags I've used are a black hole, but that doesn't happen with this bag because there is a spot for everything and you can open it all the way to find things. It also fits my laptop even when it's also full of baby stuff, which I love.<\/p><p><strong>MARCOS<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16631498171df9e580-0",
+        "16631498171df9e580-1",
+        "16631498171df9e580-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -386,6 +439,7 @@
     "1663047205fe90dd24",
     "16631390880b2cb6eb",
     "image_banner",
+    "1663149817bcbe601f",
     "rich_text",
     "featured_collection",
     "collage",
