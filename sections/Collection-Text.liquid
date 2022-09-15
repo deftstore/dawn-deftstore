@@ -42,7 +42,7 @@
       <div class="img-grid">
         <div class="custom__item-inner custom__item-inner--{{ block.type }}{% if block.settings.image == blank and block.type == 'image' %} custom__item-inner--placeholder-image{% endif %}">
           <div class="grid-column">
-            {% render 'card-collection',
+            {% render 'grid-card-collection',
                card_collection: block.settings.collection,
                media_aspect_ratio: 'adapt',
                columns: 2,
