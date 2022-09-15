@@ -86,8 +86,8 @@
         </div>   
       </div>
     </div>
-<!--     {% if card_style == 'card' or card_collection.featured_image %} 
-      <div class="card__content">
+{% if card_style == 'card' or card_collection.featured_image %} 
+      <div class="card__content over-text">
         <div class="card__information">
           <h3 class="card__heading">
             <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link">
@@ -106,6 +106,6 @@
           {%- endif -%}
         </div>
       </div>
-    {% endif %}  -->
+    {% endif %}
   </div>
 </div>
