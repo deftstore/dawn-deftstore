@@ -235,7 +235,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Get the perfect look for your fall wardrobe.  From the city to the festival to campus.",
+            "text": "<p><strong>Get the perfect look for your fall wardrobe. <\/strong><\/p><p>From the city to the festival to campus.<\/p>",
             "text_style": "body"
           }
         },
