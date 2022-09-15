@@ -3071,9 +3071,14 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
     display: flex;
     width: 100%;
 }
+.newsletter__wrapper .field.button-field button span {
+    font-size: 16px;
+    padding-right: 1rem;
+}
 .newsletter__wrapper.color-accent-1.gradient .field.button-field button {
     background: #fff;
     color: #000;
+    transition: all 0.8s ease-in;
 }
 .newsletter__wrapper.color-accent-1.gradient .field.button-field button:hover {
     background: rgba(255,255,255,.75);
