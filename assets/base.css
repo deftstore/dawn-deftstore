@@ -3076,7 +3076,7 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
     color: #000;
 }
 .newsletter__wrapper.color-accent-1.gradient .field.button-field button:hover {
-    background: rgba((255,25,255),0.75);
+    background: rgba(255,255,255,.75);
     color: #000;
 }
 .newsletter__wrapper .field.button-field button {
