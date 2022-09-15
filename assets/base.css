@@ -2992,7 +2992,7 @@ sticky-header, sticky-header header {
     left: 0%;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: inherit;
     align-items: center;
     justify-content: center;
     background-color: #00000024;
@@ -3058,9 +3058,6 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 .custom-collection .card__media {
     background: #fff;
 }
-.custom-collection .media {
-    display: block;
-    position: initial;
-}
+
 
 
