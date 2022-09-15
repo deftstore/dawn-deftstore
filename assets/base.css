@@ -3071,5 +3071,13 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
     display: flex;
     width: 100%;
 }
+.newsletter__wrapper.color-accent-1.gradient .field.button-field button {
+    background: #fff;
+    color: #000;
+}
+.newsletter__wrapper .field.button-field button {
+    padding: 1rem 0rem;
+    margin: 2rem 0rem 0rem;
+}
 
 
