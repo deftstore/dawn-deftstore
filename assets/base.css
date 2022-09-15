@@ -2985,7 +2985,7 @@ sticky-header, sticky-header header {
     width: 28%;
     margin: 0.5rem;
 }
-.custom-collection .card__content.over-text {
+.custom-collection .card__content {
     position: absolute;
     z-index: 99;
     top: 0%;
