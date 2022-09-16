@@ -119,7 +119,7 @@
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a class="button button--primary"{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %}>
-         Explore {{ section.settings.button_label | escape }}
+         {{ section.settings.button_label | escape }}
         </a>
       {%- endif -%}
     </div>
