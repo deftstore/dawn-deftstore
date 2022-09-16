@@ -3092,3 +3092,6 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 .slider-desktop-gutter .slider--desktop+.slider-buttons {
     display: flex;
 }
+.slider-desktop-gutter .slider--desktop .slider__slide:first-child {
+    margin-left: 0px;
+}
