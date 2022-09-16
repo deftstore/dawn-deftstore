@@ -360,80 +360,84 @@
     "1663307132ce7eb189": {
       "type": "image-with-text-carousel",
       "blocks": {
-        "1663307132c3db238f-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/woman-tilts-her-head-back-and-smiles-outdoors.jpg",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "View More",
-            "button_link": ""
-          }
-        },
-        "1663307132c3db238f-1": {
-          "type": "text_block",
+        "8c0b3cfa-76d5-4585-bab5-bc27b5f4b7fc": {
+          "type": "column",
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "View More",
-            "button_link": ""
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "View More",
+            "link": ""
           }
         },
-        "27dbfa92-e2a7-42d3-a2e2-c4fc75738746": {
-          "type": "text_block",
+        "13fce6f7-d4b3-4775-932d-b90dcd34ff92": {
+          "type": "column",
           "settings": {
             "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/woman-tilts-her-head-back-and-smiles-outdoors.jpg",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "View More",
+            "link": ""
           }
         },
-        "9be3aceb-689f-48bc-ab05-9290cf714d04": {
-          "type": "text_block",
+        "c5828b8a-bccd-4438-90d7-09e4dc8ac53b": {
+          "type": "column",
           "settings": {
             "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/zeny-rosalina.webp",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "View More",
+            "link": ""
           }
         },
-        "3a6a0300-eab2-4aec-9afa-8d6b1e6a7d7c": {
-          "type": "text_block",
+        "d492342b-dc75-427c-bb90-da05eda62f2d": {
+          "type": "column",
           "settings": {
             "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/woman-infront-of-tree-with-berries.jpeg",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "View More",
+            "link": ""
+          }
+        },
+        "b9dc9670-8bf7-42a3-8038-fba723b500be": {
+          "type": "column",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/woman-tilts-her-head-back-and-smiles-outdoors.jpg",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "View More",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1663307132c3db238f-0",
-        "1663307132c3db238f-1",
-        "27dbfa92-e2a7-42d3-a2e2-c4fc75738746",
-        "9be3aceb-689f-48bc-ab05-9290cf714d04",
-        "3a6a0300-eab2-4aec-9afa-8d6b1e6a7d7c"
+        "8c0b3cfa-76d5-4585-bab5-bc27b5f4b7fc",
+        "13fce6f7-d4b3-4775-932d-b90dcd34ff92",
+        "c5828b8a-bccd-4438-90d7-09e4dc8ac53b",
+        "d492342b-dc75-427c-bb90-da05eda62f2d",
+        "b9dc9670-8bf7-42a3-8038-fba723b500be"
       ],
       "settings": {
         "title": "",
-        "heading_color": "",
-        "subheading": "",
-        "subheading_color": "",
-        "text_size": 20,
-        "cus-blog": "",
-        "align_text": "center",
-        "alt": false
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
