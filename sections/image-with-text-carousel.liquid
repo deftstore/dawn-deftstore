@@ -15,7 +15,8 @@
       </header>
     {%- endif -%}
 
-    <div class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop {% unless section.blocks.size == 5 %}grid--uniform{% endunless %} text-{{ section.settings.align_text }}" data-flickity='{"draggable": true, "cellAlign": "left", "contain": true,"freeScroll": true,"pageDots": false}'>
+    <div class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop {% unless section.blocks.size == 5 %}grid--uniform{% endunless %} text-{{ section.settings.align_text }}" 
+      data-flickity='{"draggable": true, "cellAlign": "left", "contain": true,"freeScroll": true,"pageDots": false}'>
       {%- liquid
         assign grid_item_width = 'medium-up--one-third'
         -%}
