@@ -3095,3 +3095,10 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 .slider-desktop-gutter .slider--desktop .slider__slide:first-child {
     margin-left: 0px;
 }
+.slider-desktop-gutter .slider-button,
+.slider-mobile-gutter .slider-button{
+    color: rgba(var(--color-foreground),.75);
+    background: var(--gradient-base-accent-1);
+    margin: 1rem;
+    border-radius: 50%;
+}
