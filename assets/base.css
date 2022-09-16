@@ -3089,6 +3089,6 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
     margin: 2rem 0rem 0rem;
 }
 /* slider for desktop */
-.slider--desktop+.slider-buttons {
+.slider-desktop-gutter .slider--desktop+.slider-buttons {
     display: flex;
 }
