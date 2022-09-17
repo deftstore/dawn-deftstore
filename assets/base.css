@@ -3128,7 +3128,8 @@ a.button.button--primary:hover,button:hover {
     background-color:#000;
     color:#fff;
 }
-.slider-counter.slider-counter--counter.caption,.slider-counter.slider-counter--numbers.caption,
+.slider-counter.slider-counter--counter.caption,
+.slider-counter.slider-counter--numbers.caption,
 .slider-counter__link--active.slider-counter__link--numbers,
 .slider-counter__link--numbers {
     color: rgba(var(--color-background));
