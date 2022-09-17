@@ -177,12 +177,20 @@
               "heading": "Info",
               "menu": "footer"
             }
+          },
+          "a0533f9f-e271-438a-afa9-2ba998819f3d": {
+            "type": "text",
+            "settings": {
+              "heading": "Our Location",
+              "subtext": "<p>Buttonwood, California.Rosemead, CA 91770<\/p><p>00 (440) 9865 562<\/p><p>support@theme.com<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-2",
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "a0533f9f-e271-438a-afa9-2ba998819f3d"
         ],
         "settings": {
           "color_scheme": "accent-1",
