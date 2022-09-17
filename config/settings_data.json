@@ -165,25 +165,25 @@
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           },
-          "81093fe3-6b47-4bb7-96e4-b7091fb25f44": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Top Products",
-              "menu": "footer"
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "quick-links"
+            }
+          },
+          "81093fe3-6b47-4bb7-96e4-b7091fb25f44": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Top Products",
+              "menu": "products"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "Resources",
-              "menu": "footer"
+              "menu": "resources"
             }
           },
           "a0533f9f-e271-438a-afa9-2ba998819f3d": {
@@ -196,8 +196,8 @@
         },
         "block_order": [
           "footer-2",
-          "81093fe3-6b47-4bb7-96e4-b7091fb25f44",
           "footer-0",
+          "81093fe3-6b47-4bb7-96e4-b7091fb25f44",
           "footer-1",
           "a0533f9f-e271-438a-afa9-2ba998819f3d"
         ],
