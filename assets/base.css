@@ -3102,8 +3102,5 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
     margin: 1rem;
     border-radius: 50%;
 }
-slideshow-component button.slideshow__autoplay.slider-button.no-js-hidden.slideshow__autoplay--paused {
-    display: none;
-}
 
 
