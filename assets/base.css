@@ -3131,7 +3131,20 @@ a.button.button--primary:hover,button:hover {
 .slider-counter.slider-counter--counter.caption,.slider-counter.slider-counter--numbers.caption {
     color: #fff;
 }
-
+/* video*/
+.video.grid__item iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.video-item {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.video.grid__item {
+    display: block;
+}
 
 
 
