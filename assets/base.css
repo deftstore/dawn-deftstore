@@ -3107,3 +3107,18 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 .slider-mobile-gutter .slider-button[disabled] .icon{
     color: rgba(var(--color-base-background-1),.3);
 }
+.slider-desktop-gutter .slider-button:not([disabled]):hover,
+.slider-mobile-gutter .slider-button:not([disabled]):hover{
+    color: rgb(var(--color-base-background-1));
+}
+
+
+
+
+
+
+
+
+
+
+
