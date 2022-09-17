@@ -1334,11 +1334,11 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-/*color: rgb(var(--color-button-text));
-  background-color: rgba(var(--color-button), var(--alpha-button-background)); */
-  color:#fff;
-  background-color:rgb(var(--gradient-base-accent-1));
+  color: rgb(var(--color-button-text));
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  
 }
+
 
 .button:before,
 .shopify-challenge__button:before,
@@ -3113,7 +3113,10 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 .slider-mobile-gutter .slider-button:not([disabled]):hover{
     color: rgb(var(--color-base-background-1));
 }
-
+.banner__buttons a.button.button--primary {
+    color:#fff;
+    background-color:rgb(var(--gradient-base-accent-1));
+}
 
 
 
