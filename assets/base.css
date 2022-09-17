@@ -3128,7 +3128,9 @@ a.button.button--primary:hover,button:hover {
     background-color:#000;
     color:#fff;
 }
-
+.slider-counter.slider-counter--counter.caption {
+    color: #fff;
+}
 
 
 
