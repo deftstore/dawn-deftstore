@@ -319,8 +319,8 @@
   .banner--desktop-transparent .banner__box {
     background: transparent;
     --color-foreground: 255, 255, 255;
-    --color-button: 255, 255, 255;
-    --color-button-text: 0, 0, 0;
+    --color-button: rgb(var(--gradient-base-accent-1));
+    --color-button-text: 255,255,255;
     max-width: 89rem;
     border: none;
     border-radius: 0;
