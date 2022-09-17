@@ -54,6 +54,62 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1663047205fe90dd24": {
+      "type": "Collection-Text",
+      "blocks": {
+        "166304720570444b35-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "b04d7bd5-3e28-4054-9edd-0b93bc4988ee": {
+          "type": "collection",
+          "settings": {
+            "collection": "candles"
+          }
+        },
+        "ad6c6c8e-a752-4049-bdbe-c872bc4ba89c": {
+          "type": "collection",
+          "settings": {
+            "collection": "dog-toys"
+          }
+        },
+        "d31711d7-6397-42ea-b627-b35edd106801": {
+          "type": "collection",
+          "settings": {
+            "collection": "homewear"
+          }
+        },
+        "8b6b2f27-716b-46d3-acf2-e9c1d748a9c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "plants"
+          }
+        },
+        "140263ad-e85b-4068-8f09-c77164512377": {
+          "type": "collection",
+          "settings": {
+            "collection": "socks"
+          }
+        }
+      },
+      "block_order": [
+        "166304720570444b35-0",
+        "b04d7bd5-3e28-4054-9edd-0b93bc4988ee",
+        "ad6c6c8e-a752-4049-bdbe-c872bc4ba89c",
+        "d31711d7-6397-42ea-b627-b35edd106801",
+        "8b6b2f27-716b-46d3-acf2-e9c1d748a9c3",
+        "140263ad-e85b-4068-8f09-c77164512377"
+      ],
+      "settings": {
+        "full_width": false,
+        "cus_class": "",
+        "space_around": true,
+        "alt": false,
+        "code": "<h2 class=\"heading\">Your Heading<\/h2>\n<p class=\"sub-text\">your subtext write here, loreum ipsum<\/p>\n<p>We believe in beauty on the outside, but real beauty is created by taking just as much care on the inside. The most important principle in the development of our products is that everything we use in and on our bodies must be safe and as natural as possible. Because what's not safe enough for your mouth, we don't use for your skin and hair. Our products are therefore all free of parabens, sulphates and mineral oils.<\/p>"
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -119,62 +175,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1663047205fe90dd24": {
-      "type": "Collection-Text",
-      "blocks": {
-        "166304720570444b35-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "accessories"
-          }
-        },
-        "b04d7bd5-3e28-4054-9edd-0b93bc4988ee": {
-          "type": "collection",
-          "settings": {
-            "collection": "candles"
-          }
-        },
-        "ad6c6c8e-a752-4049-bdbe-c872bc4ba89c": {
-          "type": "collection",
-          "settings": {
-            "collection": "dog-toys"
-          }
-        },
-        "d31711d7-6397-42ea-b627-b35edd106801": {
-          "type": "collection",
-          "settings": {
-            "collection": "homewear"
-          }
-        },
-        "8b6b2f27-716b-46d3-acf2-e9c1d748a9c3": {
-          "type": "collection",
-          "settings": {
-            "collection": "plants"
-          }
-        },
-        "140263ad-e85b-4068-8f09-c77164512377": {
-          "type": "collection",
-          "settings": {
-            "collection": "socks"
-          }
-        }
-      },
-      "block_order": [
-        "166304720570444b35-0",
-        "b04d7bd5-3e28-4054-9edd-0b93bc4988ee",
-        "ad6c6c8e-a752-4049-bdbe-c872bc4ba89c",
-        "d31711d7-6397-42ea-b627-b35edd106801",
-        "8b6b2f27-716b-46d3-acf2-e9c1d748a9c3",
-        "140263ad-e85b-4068-8f09-c77164512377"
-      ],
-      "settings": {
-        "full_width": false,
-        "cus_class": "",
-        "space_around": true,
-        "alt": false,
-        "code": "<h2 class=\"heading\">Your Heading<\/h2>\n<p class=\"sub-text\">your subtext write here, loreum ipsum<\/p>\n<p>We believe in beauty on the outside, but real beauty is created by taking just as much care on the inside. The most important principle in the development of our products is that everything we use in and on our bodies must be safe and as natural as possible. Because what's not safe enough for your mouth, we don't use for your skin and hair. Our products are therefore all free of parabens, sulphates and mineral oils.<\/p>"
       }
     },
     "16631390880b2cb6eb": {
@@ -268,6 +268,50 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "16634127363c8937f9": {
+      "type": "image-with-video",
+      "blocks": {
+        "1663412736d946fec2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video with text",
+            "heading_size": "h1"
+          }
+        },
+        "1663412736d946fec2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663412736d946fec2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View More",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1663412736d946fec2-0",
+        "1663412736d946fec2-1",
+        "1663412736d946fec2-2"
+      ],
+      "settings": {
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1663149817bcbe601f": {
@@ -440,61 +484,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16634127363c8937f9": {
-      "type": "image-with-video",
-      "blocks": {
-        "1663412736d946fec2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "1663412736d946fec2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1663412736d946fec2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1663412736d946fec2-0",
-        "1663412736d946fec2-1",
-        "1663412736d946fec2-2"
-      ],
-      "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "height": "large",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "16629645634ba03edb",
-    "multicolumn",
     "1663047205fe90dd24",
+    "multicolumn",
     "16631390880b2cb6eb",
     "image_banner",
+    "16634127363c8937f9",
     "1663149817bcbe601f",
     "1663227203c5831e62",
-    "1663307132ce7eb189",
-    "16634127363c8937f9"
+    "1663307132ce7eb189"
   ]
 }
