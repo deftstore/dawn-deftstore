@@ -3123,6 +3123,10 @@ a.button,button {
     box-shadow: -1.717px 8.835px 29.76px 2.24px rgb(249 247 247 / 18%);
     border-radius: 42px;
 }
+a.button:hover,button:hover {
+    background:#000;
+    color:#fff;
+}
 
 
 
