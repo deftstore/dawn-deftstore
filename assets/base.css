@@ -3082,10 +3082,10 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
     color: #000;
     transition: all 0.8s ease-in;
 }
-/* .newsletter__wrapper.color-accent-1.gradient .field.button-field button:hover {
-    background: rgba(255,255,255,.75);
-    color: #000;
-} */
+.newsletter__wrapper.color-accent-1.gradient .field.button-field button:hover {
+     background-color:#000;
+    color:#fff;
+} 
 .newsletter__wrapper .field.button-field button {
     padding: 1rem 0rem;
     margin: 2rem 0rem 0rem;
@@ -3122,6 +3122,7 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 a.button,button {
     box-shadow: -1.717px 8.835px 29.76px 2.24px rgb(249 247 247 / 18%);
     border-radius: 42px;
+    transition: all 0.8s ease-in;
 }
 a.button.button--primary:hover,button:hover {
     background-color:#000;
