@@ -3115,7 +3115,7 @@ slideshow-component .slider-counter__link--dots:not(.slider-counter__link--activ
 }
 .banner__buttons a.button.button--primary {
     color:#fff;
-    background-color:rgb(var(--gradient-base-accent-1));
+    background-color:rgba(var(--gradient-base-background-1));
 }
 
 
