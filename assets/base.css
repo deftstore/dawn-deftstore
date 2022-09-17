@@ -3124,7 +3124,7 @@ a.button,button {
     border-radius: 42px;
 }
 a.button:hover,button:hover {
-    background:#000;
+    background-color:#000;
     color:#fff;
 }
 
