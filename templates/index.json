@@ -58,6 +58,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "New Arrival",
+        "content_alignment": "center",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -442,7 +443,7 @@
         "1663412736d946fec2-2"
       ],
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=nMdBtOdzXhQ",
         "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
