@@ -3149,6 +3149,29 @@ a.button.button--primary:hover,button:hover {
     display: block;
     width: 100%;
 }
+/*card-collection  */
+.custom-collection .card--media .card__inner .card__content {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
