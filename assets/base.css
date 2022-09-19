@@ -3168,14 +3168,17 @@ img.motion-reduce {
 a.button:hover,
 button:hover{
   border-radius:42px;
+  outline:none;
 }
 a.button:before,
 button:before{
-  content:none;
+  border-radius:42px;
+  outline:none;
 }
 a.button:after,
 button:after{
-  content:none;
+  border-radius:42px;
+  outline:none;
 }
 
 
