@@ -3169,6 +3169,14 @@ a.button:hover,
 button:hover{
   border-radius:42px;
 }
+a.button:before,
+button:before{
+  content:none;
+}
+a.button:after,
+button:after{
+  content:none;
+}
 
 
 
