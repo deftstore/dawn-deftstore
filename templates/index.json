@@ -222,6 +222,47 @@
         "padding_bottom": 36
       }
     },
+    "16635689835208394d": {
+      "type": "collection-list",
+      "blocks": {
+        "1663568983ca704341-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plants"
+          }
+        },
+        "1663568983ca704341-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-toys"
+          }
+        },
+        "1663568983ca704341-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "candles"
+          }
+        }
+      },
+      "block_order": [
+        "1663568983ca704341-0",
+        "1663568983ca704341-1",
+        "1663568983ca704341-2"
+      ],
+      "settings": {
+        "title": "Trending Collections",
+        "content_alignment": "center",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -268,6 +309,79 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "16635711588077b764": {
+      "type": "featured-product",
+      "blocks": {
+        "166357115801bc9a6b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "166357115801bc9a6b-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "166357115801bc9a6b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "166357115801bc9a6b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "166357115801bc9a6b-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "166357115801bc9a6b-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "166357115801bc9a6b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "166357115801bc9a6b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "166357115801bc9a6b-0",
+        "166357115801bc9a6b-1",
+        "166357115801bc9a6b-2",
+        "166357115801bc9a6b-3",
+        "166357115801bc9a6b-4",
+        "166357115801bc9a6b-5",
+        "166357115801bc9a6b-6",
+        "166357115801bc9a6b-7"
+      ],
+      "settings": {
+        "product": "upholstered-simple-ph-1",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16634127363c8937f9": {
@@ -527,46 +641,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16635689835208394d": {
-      "type": "collection-list",
-      "blocks": {
-        "1663568983ca704341-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "plants"
-          }
-        },
-        "1663568983ca704341-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dog-toys"
-          }
-        },
-        "1663568983ca704341-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "candles"
-          }
-        }
-      },
-      "block_order": [
-        "1663568983ca704341-0",
-        "1663568983ca704341-1",
-        "1663568983ca704341-2"
-      ],
-      "settings": {
-        "title": "Trending Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -574,12 +648,13 @@
     "1663047205fe90dd24",
     "multicolumn",
     "16631390880b2cb6eb",
+    "16635689835208394d",
     "image_banner",
+    "16635711588077b764",
     "16634127363c8937f9",
     "16634139539fcd6562",
     "1663149817bcbe601f",
     "1663227203c5831e62",
-    "1663307132ce7eb189",
-    "16635689835208394d"
+    "1663307132ce7eb189"
   ]
 }
