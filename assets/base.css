@@ -3165,7 +3165,10 @@ a.button.button--primary:hover,button:hover {
 img.motion-reduce {
     padding: 2.5px;
 }
-
+a.button:hover,
+button:hover{
+  border-radius:42px;
+}
 
 
 
