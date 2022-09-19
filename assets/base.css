@@ -3157,6 +3157,11 @@ a.button.button--primary:hover,button:hover {
     position: relative;
     width: 100%;
 }
+.custom-collection .card--card.card--media .card__inner .card__information,
+.custom-collection .card--card.card--text .card__inner,
+.custom-collection .card--card.card--media>.card__content .card__badge{
+  display:block;
+}
 
 
 
