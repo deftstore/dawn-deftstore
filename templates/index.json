@@ -444,7 +444,7 @@
       ],
       "settings": {
         "video_url": "https:\/\/www.youtube.com\/watch?v=nMdBtOdzXhQ",
-        "height": "large",
+        "height": "small",
         "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "top",
