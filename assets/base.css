@@ -3145,7 +3145,10 @@ a.button.button--primary:hover,button:hover {
 .video.grid__item {
     display: block;
 }
-
+.collection-list-title.h1 {
+    display: block;
+    width: 100%;
+}
 
 
 
