@@ -2959,7 +2959,7 @@ details-disclosure > details {
 }
 
 /* custom css */
-div#top-header-section {
+/* div#top-header-section {
     position: absolute;
     top: 0;
     left: 0;
@@ -2970,7 +2970,7 @@ div#top-header-section {
 }
 sticky-header, sticky-header header {
     background: none!important;
-}
+} */
 .custom-collection .custom__item {
     display: flex;
     width: 100%;
