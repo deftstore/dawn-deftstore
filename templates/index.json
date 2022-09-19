@@ -54,6 +54,33 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "16635723414a03c990": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Arrival",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-arrival",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1663047205fe90dd24": {
       "type": "Collection-Text",
       "blocks": {
@@ -645,6 +672,7 @@
   },
   "order": [
     "16629645634ba03edb",
+    "16635723414a03c990",
     "1663047205fe90dd24",
     "multicolumn",
     "16631390880b2cb6eb",
