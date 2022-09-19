@@ -3153,7 +3153,10 @@ a.button.button--primary:hover,button:hover {
 .custom-collection .card--media .card__inner .card__content {
     position: absolute;
 }
-
+.custom-collection .card--media .card__media {
+    position: relative;
+    width: 100%;
+}
 
 
 
