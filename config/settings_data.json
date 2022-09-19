@@ -141,7 +141,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "accent-1",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
