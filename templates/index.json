@@ -237,7 +237,7 @@
         "16631390888c246f87-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/protrait1.webp",
+        "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -580,7 +580,7 @@
         "1663227203222e9c25-2"
       ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 56,
         "padding_bottom": 56
