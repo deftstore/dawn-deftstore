@@ -2220,8 +2220,13 @@ input[type='checkbox'] {
 }
 
 .shopify-section-header-sticky {
-  position: sticky;
-  top: 0;
+/*   position: sticky;
+  top: 0; */
+  position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    z-index: 9999999999!important;
 }
 
 .shopify-section-header-hidden {
@@ -3180,9 +3185,7 @@ button:after{
   border-radius:42px;
   outline:none;
 }
-.shopify-section-header-hidden {
-    transform: unset;
-}
+
 
 
 
