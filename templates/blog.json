@@ -1,5 +1,55 @@
 {
   "sections": {
+    "16636664434f380f4d": {
+      "type": "image-banner",
+      "blocks": {
+        "1663666443be35eb92-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Blog",
+            "heading_size": "h0"
+          }
+        },
+        "1663666443be35eb92-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "1663666443be35eb92-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663666443be35eb92-0",
+        "1663666443be35eb92-1",
+        "1663666443be35eb92-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/a-close-up-of-black-microphone.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -11,73 +61,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "166358227424f54604": {
-      "type": "Collection-Text",
-      "blocks": {
-        "16635822742247b87a-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "candles"
-          }
-        },
-        "fd250e78-b549-42f3-ac98-43939201aa67": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "d04c6ffb-c30c-416f-ab1a-c661648cd100": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "90423a27-265b-41d2-a3a2-c0cc53e8e849": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "7ee78dbe-afd3-4f54-a891-07eadd59409e": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "fa21f1a3-4e91-4ae0-b2b2-e452f289bbbe": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "412fb7cc-f30e-4f90-a5f8-d6c28e282305": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16635822742247b87a-0",
-        "fd250e78-b549-42f3-ac98-43939201aa67",
-        "d04c6ffb-c30c-416f-ab1a-c661648cd100",
-        "90423a27-265b-41d2-a3a2-c0cc53e8e849",
-        "7ee78dbe-afd3-4f54-a891-07eadd59409e",
-        "fa21f1a3-4e91-4ae0-b2b2-e452f289bbbe",
-        "412fb7cc-f30e-4f90-a5f8-d6c28e282305"
-      ],
-      "settings": {
-        "full_width": false,
-        "cus_class": "",
-        "space_around": true,
-        "alt": false,
-        "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>"
-      }
     }
   },
   "order": [
-    "main",
-    "166358227424f54604"
+    "16636664434f380f4d",
+    "main"
   ]
 }
