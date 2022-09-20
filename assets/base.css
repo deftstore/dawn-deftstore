@@ -3185,7 +3185,9 @@ button:after{
   border-radius:42px;
   outline:none;
 }
-
+.shopify-section-header-hidden {
+    transform: unset;
+}
 
 
 
