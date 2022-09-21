@@ -54,6 +54,73 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1663759297d43e4205": {
+      "type": "multicolumn",
+      "blocks": {
+        "16637592971a753ead-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/showroom.png",
+            "title": "ecommerce Shop",
+            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16637592971a753ead-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipped.png",
+            "title": "Free Shipping",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16637592971a753ead-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/discount.png",
+            "title": "50% Discount",
+            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b0c513c4-3866-4af7-b3eb-6a9014c76cb1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift-card.png",
+            "title": "Gift Cards",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16637592971a753ead-0",
+        "16637592971a753ead-1",
+        "16637592971a753ead-2",
+        "b0c513c4-3866-4af7-b3eb-6a9014c76cb1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16635723414a03c990": {
       "type": "featured-collection",
       "settings": {
@@ -673,6 +740,7 @@
   },
   "order": [
     "16629645634ba03edb",
+    "1663759297d43e4205",
     "16635723414a03c990",
     "1663047205fe90dd24",
     "multicolumn",
