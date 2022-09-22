@@ -57,7 +57,9 @@
                   
                 </div>
                 <div class="field button-field">
-                  <button type="submit" class="newsletter-form__button field__button pos-rel" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                  <button type="submit" class="newsletter-form__button field__button pos-rel" 
+                    name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}"
+                    style="background-color:{{section.settings.btn_bgcolor}};color:{{ section.settings.btn_color }};">
                     <span>Sign Up</span> {% render 'icon-arrow' %}
                   </button>
                 </div>
@@ -109,6 +111,18 @@
       "default": "background-1",
       "label": "t:sections.all.colors.label"
     },
+    {
+      "type": "color",
+      "id": "btn_bgcolor",
+      "label": "Button Background Color",
+      "default": "#FFFFFF"
+     },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button Text Color",
+      "default": "#000"
+     },
     {
       "type": "checkbox",
       "id": "full_width",
