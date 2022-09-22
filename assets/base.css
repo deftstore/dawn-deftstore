@@ -3192,7 +3192,9 @@ button:after{
 .ctext-overlay .card.card--media {
     position: relative;
 }
-
+.ctext-overlay:hover .card.card--media {
+    height:auto;
+}
 .ctext-overlay .card__content h3 {
     color: #fff;
 }
@@ -3222,7 +3224,7 @@ button:after{
     align-items: center;
 }
 .result_hover .card.card--media:hover > .card__content h3 {
-    color: #000;
+    color: #fff;
 }
 
 
