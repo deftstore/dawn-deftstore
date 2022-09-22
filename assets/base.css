@@ -3230,6 +3230,8 @@ button:after{
 
 .result_hover .card-information{
   text-align:center;
+  display:block;
+  width:100%;
 }
 
 .result_hover .card.card--media:hover > .card__content {
