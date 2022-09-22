@@ -343,13 +343,27 @@
           "settings": {
             "collection": "homewear"
           }
+        },
+        "6283393c-b9c6-4cc3-b76b-f965c40da40f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "d1cfc256-2b56-4f24-ad9d-256d802a8d5d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-arrival"
+          }
         }
       },
       "block_order": [
         "1663568983ca704341-0",
         "1663568983ca704341-1",
         "1663568983ca704341-2",
-        "31d3b9f6-21e2-42a7-995f-119605efdd5f"
+        "31d3b9f6-21e2-42a7-995f-119605efdd5f",
+        "6283393c-b9c6-4cc3-b76b-f965c40da40f",
+        "d1cfc256-2b56-4f24-ad9d-256d802a8d5d"
       ],
       "settings": {
         "title": "Trending Collections",
