@@ -651,7 +651,7 @@
         "color_scheme": "inverse",
         "btn_bgcolor": "#f3f3f3",
         "btn_color": "#000000",
-        "btn_hbgcolor": "#000000",
+        "btn_hbgcolor": "#343c5f",
         "btn_hcolor": "#ffffff",
         "full_width": true,
         "padding_top": 56,
