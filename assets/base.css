@@ -3217,7 +3217,7 @@ button:after{
 }
 .ctext-overlay .card.card--media:hover > .card__content {
     position: relative;
-    background: transparent;
+    background: transparent!important;
     width: 100%;
     height: 100%;
     display: flex;
