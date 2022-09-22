@@ -3001,7 +3001,7 @@ sticky-header, sticky-header header {
 }
 }
 @media (max-width:767px){
-  .image-with-text__content {
+  .image-with-text__text-item.grid__item .image-with-text__content {
     padding: 4rem 0rem;
 }
 }
