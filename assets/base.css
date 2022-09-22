@@ -3228,6 +3228,10 @@ button:after{
     transition:all 0.5s ease-in-out;
 }
 
+.result_hover .card-information{
+  text-align:center;
+}
+
 .result_hover .card.card--media:hover > .card__content {
     position: relative;
     background: #343c5f!important;
