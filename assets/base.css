@@ -2993,6 +2993,15 @@ sticky-header, sticky-header header {
     flex-direction: column;
 }
 }
+@media (max-width:520px){
+.custom__item.small--one-whole.three-fifths.align--center.part-right .img-grid {
+    display: block;
+    width: 40%;
+    margin: 2% 10% 2% 0%;
+}
+}
+
+
 .img-grid {
     display: block;
     width: 28%;
