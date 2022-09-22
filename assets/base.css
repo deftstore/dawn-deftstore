@@ -3206,7 +3206,12 @@ button:after{
     justify-content: center;
     align-items: center;
 }
-
+.ctext-overlay .card.card--media:hover .card__content {
+    position: relative;
+}
+.ctext-overlay .card.card--media:hover .card__content h3 {
+    color: #fff;
+}
 
 
 
