@@ -3228,10 +3228,8 @@ button:after{
     transition:all 0.5s ease-in-out;
 }
 
-.result_hover .card-information{
+.result_hover .card__information{
   text-align:center;
-  display:block;
-  width:100%;
 }
 
 .result_hover .card.card--media:hover > .card__content {
