@@ -346,6 +346,7 @@
       ],
       "settings": {
         "title": "Trending Collections",
+        "ctext": true,
         "content_alignment": "center",
         "heading_size": "h1",
         "image_ratio": "square",
