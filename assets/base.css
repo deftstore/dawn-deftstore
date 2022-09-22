@@ -3224,6 +3224,9 @@ button:after{
 .ctext-overlay .card.card--media:hover > .card__content h3 {
     color: #fff;
 }
+.ctext-overlay .card.card--media:hover > .card__content{
+    background-color: transparent;
+}
 
 
 
