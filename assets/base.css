@@ -3209,11 +3209,7 @@ button:after{
     align-items: center;
     transition:all 0.5s ease-in-out;
 }
-.card__information {
-    display: block;
-    width: 100%;
-    text-align: center;  
-}
+
 .result_hover .card.card--media:hover > .card__content {
     position: relative;
     background: #343c5f!important;
