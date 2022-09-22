@@ -3188,8 +3188,10 @@ button:after{
 .shopify-section-header-hidden {
     transform: unset;
 }
-
-
+/*collection text overlay  */
+.ctext-overlay .card.card--media {
+    position: relative;
+}
 
 
 
