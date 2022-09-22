@@ -125,7 +125,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "New Arrival",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
