@@ -3191,10 +3191,9 @@ button:after{
 /*collection text overlay  */
 .ctext-overlay .card.card--media {
     position: relative;
+   height:auto;
 }
-.ctext-overlay:hover .card.card--media {
-    height:auto;
-}
+
 .ctext-overlay .card__content h3 {
     color: #fff;
 }
