@@ -3000,7 +3000,11 @@ sticky-header, sticky-header header {
     margin: 2% 10% 2% 0%;
 }
 }
-
+@media (max-width:767px){
+  .image-with-text__content {
+    padding: 4rem 0rem;
+}
+}
 
 .img-grid {
     display: block;
