@@ -2,13 +2,147 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1663924962b17b4243": {
+      "type": "rich-text",
+      "blocks": {
+        "1663924962a2de9b3e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>-Our Mission-<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663924962a2de9b3e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. <\/p>"
+          }
+        },
+        "1663924962a2de9b3e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663924962a2de9b3e-0",
+        "1663924962a2de9b3e-1",
+        "1663924962a2de9b3e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16639253507af4b5c4": {
+      "type": "rich-text",
+      "blocks": {
+        "166392535036f5fcac-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166392535036f5fcac-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you know how powerful a picture\/video will become, you will certainly add it to your About Us page. Adding a picture\/video not only helps to boost conversion and sales (by attracting customers), but also shows great ROI, builds trust, and is good for SEO. Therefore, if you’ve invested in a video that helps potential customers get to know your business or your products, your About Us page Shopify is a good home for it as well. <\/p><p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p><p>If you know how powerful a picture\/video will become, you will certainly add it to your About Us page. Adding a picture\/video not only helps to boost conversion and sales (by attracting customers), but also shows great ROI, builds trust, and is good for SEO. Therefore, if you’ve invested in a video that helps potential customers get to know your business or your products, your About Us page Shopify is a good home for it as well. <\/p>"
+          }
+        },
+        "166392535036f5fcac-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166392535036f5fcac-0",
+        "166392535036f5fcac-1",
+        "166392535036f5fcac-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "166392541963d8a046": {
+      "type": "image-with-text",
+      "blocks": {
+        "16639254193340c113-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Marmato",
+            "heading_size": "h1"
+          }
+        },
+        "16639254193340c113-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Who We Are<br\/><br\/><\/strong>The business model is considered a unique value proposition and can be a selling point that’s worth including on your About Us page Shopify. Let’s talk transparently about your operation process like how your store cut out the middleman and pass the savings onto customers, or where you find the right materials for your product. The more transparent you are, the more customers will trust you.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16639254193340c113-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "16639254193340c113-0",
+        "16639254193340c113-1",
+        "16639254193340c113-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/business-people-walking-in-city.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663924962b17b4243",
+    "16639253507af4b5c4",
+    "166392541963d8a046"
   ]
 }
