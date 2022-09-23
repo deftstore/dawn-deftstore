@@ -3268,11 +3268,11 @@ button:after{
     background-color: #f3f3f3!important;
 }
 /*about page  */
-/* .cus-page-width {
+.cus-page-width {
     max-width: 100%;
     margin: 0rem;
     padding: 0rem;
-} */
+}
 .cus-page-width img{
     object-fit:contain;
 }
