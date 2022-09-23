@@ -3251,6 +3251,15 @@ button:after{
 .cus-contact {
     display: flex;
 }
+@media(min-width:980px){
+  .con-pad {
+    display: block;
+    width: 50%;
+}
+  .contact-left.con-pad {
+    padding-right: 5rem;
+}
+}
 
 
 
