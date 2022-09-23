@@ -64,7 +64,7 @@
         "1663914006a96671ff-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Feel free to reach us<\/p>",
+            "heading": "<p>Get In Touch<\/p>",
             "heading_size": "h1"
           }
         },
@@ -115,15 +115,15 @@
     "1663914051d67a8372": {
       "type": "text-with-contact-form",
       "settings": {
-        "chead": "Reach US",
+        "chead": "Feel free to reach us",
         "csubhead": "<p>We are happy to help you with all you queries. Please fill the contact form below so we can assist you.<\/p>",
         "cbtn": "",
         "cbtnl": "",
         "heading": "",
-        "chead_size": "h1",
+        "chead_size": "h2",
         "flex": "row",
         "icolor": "#343c5f",
-        "tcolor": "#fff",
+        "tcolor": "#ffffff",
         "heading_size": "h2",
         "color_scheme": "background-1",
         "padding_top": 36,
