@@ -1,15 +1,68 @@
 {
   "sections": {
+    "166392811907805a01": {
+      "type": "image-banner",
+      "blocks": {
+        "1663928119f5063306-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Collections",
+            "heading_size": "h1"
+          }
+        },
+        "1663928119f5063306-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "1663928119f5063306-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663928119f5063306-0",
+        "1663928119f5063306-1",
+        "1663928119f5063306-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/clothing-accessories-flatlay.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
       }
     }
   },
   "order": [
+    "166392811907805a01",
     "main"
   ]
 }
