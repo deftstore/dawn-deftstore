@@ -3263,6 +3263,13 @@ button:after{
 .cus-contact {
     margin-bottom: 5rem;
 }
+}
+.cus-contact .field__input,
+.cus-contact .select__select,
+.cus-contact .customer .field input,
+.cus-contact .customer select {
+    background-color: #f3f3f3;
+}
 
 
 
