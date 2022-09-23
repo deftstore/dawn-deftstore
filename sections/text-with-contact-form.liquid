@@ -22,7 +22,7 @@
     {% if section.settings.chead != blank %}
       <div class="text-info">
         <div class="text-head">
-          <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.chead }}</h2>
+          <h2 class="title title-wrapper--no-top-margin {{ section.settings.chead_size }}">{{ section.settings.chead }}</h2>
         </div>
         <div class="text-subhead">
           {{ section.settings.csubhead }}
@@ -143,6 +143,26 @@
       "id": "heading",
       "default": "Contact form",
       "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "chead_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
     },
     {
       "type": "select",
