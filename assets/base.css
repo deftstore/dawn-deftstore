@@ -3267,7 +3267,12 @@ button:after{
 .cus-contact .field__input {
     background-color: #f3f3f3!important;
 }
-
+/*about page  */
+.cus-page-width {
+    max-width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+}
 
 
 
