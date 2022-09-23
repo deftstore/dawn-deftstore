@@ -3264,10 +3264,7 @@ button:after{
     margin-bottom: 5rem;
 }
 }
-.cus-contact .field__input,
-.cus-contact .select__select,
-.cus-contact .customer .field input,
-.cus-contact .customer select {
+.cus-contact .field .field__input{
     background-color: #f3f3f3;
 }
 
