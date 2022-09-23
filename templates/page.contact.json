@@ -8,6 +8,56 @@
         "padding_bottom": 36
       }
     },
+    "1663917944eaeef1b1": {
+      "type": "image-banner",
+      "blocks": {
+        "16639179447e56f458-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "16639179447e56f458-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "16639179447e56f458-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16639179447e56f458-0",
+        "16639179447e56f458-1",
+        "16639179447e56f458-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/a-close-up-of-black-microphone.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "166391400655e644c1": {
       "type": "rich-text",
       "blocks": {
@@ -69,7 +119,7 @@
         "csubhead": "<p>We are happy to help you with all you queries. Please fill the contact form below so we can assist you.<\/p>",
         "cbtn": "",
         "cbtnl": "",
-        "heading": "Contact form",
+        "heading": "",
         "chead_size": "h1",
         "flex": "row",
         "heading_size": "h2",
@@ -90,6 +140,7 @@
   },
   "order": [
     "main",
+    "1663917944eaeef1b1",
     "166391400655e644c1",
     "form",
     "1663914051d67a8372",
