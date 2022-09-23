@@ -116,7 +116,7 @@
       "type": "text-with-contact-form",
       "settings": {
         "chead": "Feel free to reach us",
-        "csubhead": "<p>We are happy to help you with all you queries. Please fill the contact form below so we can assist you.<\/p>",
+        "csubhead": "<p><strong>Fill the form to email us<\/strong><br\/>We are happy to help you with all you queries. Please fill the contact form below so we can assist you.<\/p>",
         "cbtn": "",
         "cbtnl": "",
         "heading": "",
