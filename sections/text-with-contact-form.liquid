@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient cus-contact page-width" style="flex-direction:{{ section.settings.flex }}">
-  <div class="contact-text contact-left con-pad" >
+  <div class="contact-text contact-left con-pad section-{{ section.id }}-padding" >
     {% if section.settings.cimg != blank %}
       <img src="{{ section.settings.cimg | img_url }}">
     {% endif %}
