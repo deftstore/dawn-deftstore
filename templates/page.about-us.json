@@ -173,7 +173,7 @@
       "settings": {
         "fullwidth": true,
         "image": "shopify:\/\/shop_images\/protrait1.webp",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
