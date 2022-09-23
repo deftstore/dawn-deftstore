@@ -125,6 +125,7 @@
         "16639254193340c113-2"
       ],
       "settings": {
+        "fullwidth": false,
         "image": "shopify:\/\/shop_images\/business-people-walking-in-city.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -170,6 +171,7 @@
         "16639267989fe8f7e8-2"
       ],
       "settings": {
+        "fullwidth": true,
         "image": "shopify:\/\/shop_images\/protrait1.webp",
         "height": "small",
         "desktop_image_width": "medium",
