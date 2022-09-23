@@ -3246,9 +3246,11 @@ button:after{
 .result_hover .card.card--media:hover > .card__content h3 {
     color: #fff;
 }
+/*custom contact  */
 
-
-
+.cus-contact {
+    display: flex;
+}
 
 
 
