@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient cus-contact" style="flex-direction:{{ section.settings.flex }}">
+<div class="color-{{ section.settings.color_scheme }} gradient cus-contact page-width" style="flex-direction:{{ section.settings.flex }}">
   <div class="contact-text contact-left" >
     {% if section.settings.cimg != blank %}
       <img src="{{ section.settings.cimg | img_url }}">
@@ -33,7 +33,7 @@
       </div>
     {% endif %}
   </div>
-  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding contact-right">
+  <div class="contact page-width--narrow section-{{ section.id }}-padding contact-right">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     {%- else -%}
