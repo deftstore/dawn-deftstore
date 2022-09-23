@@ -137,12 +137,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663925523e1ecf6e4": {
+      "type": "image-banner",
+      "blocks": {
+        "1663925523a902e297-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "“If anyone wants to quickly understand your brand, the About Us page should be the single link you send them.”",
+            "heading_size": "h2"
+          }
+        },
+        "1663925523a902e297-1": {
+          "type": "text",
+          "settings": {
+            "text": "Max Abdullah -- CEO Medisene",
+            "text_style": "body"
+          }
+        },
+        "1663925523a902e297-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663925523a902e297-0",
+        "1663925523a902e297-1",
+        "1663925523a902e297-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hand-holds-a-pencil-ready-to-write-at-a-desk.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "1663924962b17b4243",
     "16639253507af4b5c4",
-    "166392541963d8a046"
+    "166392541963d8a046",
+    "1663925523e1ecf6e4"
   ]
 }
