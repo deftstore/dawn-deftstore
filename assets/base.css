@@ -3280,6 +3280,11 @@ h3.card__heading.h5 {
     font-size: 18px;
     text-transform: capitalize;
 }
+.slideshow__controls.slideshow__controls--top {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
