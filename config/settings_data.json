@@ -11,7 +11,7 @@
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
-    "type_header_font": "alegreya_n5",
+    "type_header_font": "josefin_sans_n6",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
@@ -125,7 +125,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING ON ORDERS OVER $100",
+              "text": "FREE SHIPPING ON ORDERS OVER <span>$100<\/span>",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
