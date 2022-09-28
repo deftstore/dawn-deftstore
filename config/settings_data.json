@@ -125,7 +125,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING ON ORDERS OVER <span>$100<\/span>",
+              "text": "FREE SHIPPING ON ORDERS OVER <span style=\"font-size:20px;!important\">$100<\/span>",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
