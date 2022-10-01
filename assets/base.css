@@ -3282,9 +3282,14 @@ h3.card__heading.h5 {
 }
 .slideshow__controls.slideshow__controls--top {
     position: absolute;
-    bottom: 0;
+    /* top: 0; */
+    right: 0;
     width: 100%;
-    z-index:99;
+    z-index: 99;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
 }
 
 slideshow-component button.slider-button {
