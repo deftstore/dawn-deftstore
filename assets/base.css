@@ -3280,6 +3280,9 @@ h3.card__heading.h5 {
     font-size: 18px;
     text-transform: capitalize;
 }
+.slideshow__control-wrapper {
+    flex-direction: column;
+}
 .slideshow__controls.slideshow__controls--top {
     position: absolute;
     /* top: 0; */
