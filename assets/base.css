@@ -85,7 +85,7 @@
   border-radius:42px;
 }
 button.shopify-payment-button__button {
-    border-radius: 42px;
+    border-radius: 42px!important;
 }
 .product-form__buttons .product-form__submit.button--secondary:hover::after,
 .product-form__buttons .shopify-payment-button__button--unbranded:hover::after,
