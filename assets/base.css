@@ -3287,7 +3287,9 @@ h3.card__heading.h5 {
     z-index:99;
 }
 
-
+slideshow-component button.slider-button {
+    display: none;
+}
 
 
 
