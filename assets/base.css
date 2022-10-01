@@ -3294,7 +3294,10 @@ slideshow-component button.slider-button {
     display: flex;
     flex-direction: column;
 }
-
+h2.banner__overheading {
+    color: #fff;
+    opacity: 0.5;
+}
 
 
 
