@@ -79,9 +79,9 @@
   --color-button: var(--color-background);
   --alpha-button-background: 1;
 } */
-.button--secondary {
-  --color-button: #000;
-  --color-button-text: #fff;
+.product-form__submit.button--secondary {
+  background-color: #000;
+  color: #fff;
 }
 
 .color-background-2 .button--secondary,
