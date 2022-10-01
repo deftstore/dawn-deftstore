@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/working-at-night.jpg",
-            "oversize": 91,
+            "oversize": 100,
             "overheading": "BREATHE IN LIFE",
             "heading": "The Deft Store",
             "heading_size": "h1",
@@ -17,7 +17,7 @@
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": false,
-            "text_alignment": "left",
+            "text_alignment": "right",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
@@ -27,7 +27,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/a-close-up-of-black-microphone.jpg",
-            "oversize": 91,
+            "oversize": 100,
             "overheading": "SUCCESS",
             "heading": "The Deft Vac",
             "heading_size": "h1",
@@ -37,7 +37,7 @@
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": false,
-            "text_alignment": "left",
+            "text_alignment": "right",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
