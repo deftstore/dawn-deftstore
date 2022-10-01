@@ -84,6 +84,10 @@
   color: #fff;
   border-radius:42px;
 }
+button.shopify-payment-button__button:hover,
+.product-form__submit.button--secondary:hover{
+  opacity:0.7;
+}
 button.shopify-payment-button__button,
 button.shopify-payment-button__button::before,
 button.shopify-payment-button__button::after{
