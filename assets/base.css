@@ -83,6 +83,10 @@
   background-color: #000;
   color: #fff;
 }
+.product-form__submit.button--secondary:after,
+.product-form__submit.button--secondary:before{
+  box-shadow:none;
+}
 
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
