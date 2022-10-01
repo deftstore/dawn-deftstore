@@ -72,7 +72,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "dots",
+        "slider_visual": "numbers",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": false,
@@ -330,7 +330,7 @@
       ],
       "settings": {
         "fullwidth": false,
-        "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
+        "image": "shopify:\/\/shop_images\/business-people-walking-in-city.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
