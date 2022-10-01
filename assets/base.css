@@ -79,6 +79,10 @@
   --color-button: var(--color-background);
   --alpha-button-background: 1;
 }
+.button--secondary {
+  background-color: inherit;
+   color: inherit;
+}
 
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
