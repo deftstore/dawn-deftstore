@@ -483,6 +483,13 @@
           "settings": {
           }
         },
+        "405f551b-3263-4bb2-9f16-df7d288b71a2": {
+          "type": "text",
+          "settings": {
+            "text": "Designed by Puik in 1949 as one of the first models created especially for Carl Hansen & Son, and produced since 1950. The last of a series of chairs wegner designed based on inspiration from antique chinese armchairs.   Product details Material: Plastic, Wood Legs: Lacquered oak and black painted oak Dimensions and Weight: Height: 80 cm, Weight: 5.3 kg Length: 48cm Depth:",
+            "text_style": "body"
+          }
+        },
         "166357115801bc9a6b-4": {
           "type": "variant_picker",
           "settings": {
@@ -499,12 +506,6 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "166357115801bc9a6b-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -512,10 +513,10 @@
         "166357115801bc9a6b-1",
         "166357115801bc9a6b-2",
         "166357115801bc9a6b-3",
+        "405f551b-3263-4bb2-9f16-df7d288b71a2",
         "166357115801bc9a6b-4",
         "166357115801bc9a6b-5",
-        "166357115801bc9a6b-6",
-        "166357115801bc9a6b-7"
+        "166357115801bc9a6b-6"
       ],
       "settings": {
         "product": "upholstered-simple-ph-1",
