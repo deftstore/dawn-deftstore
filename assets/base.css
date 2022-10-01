@@ -84,13 +84,15 @@
   color: #fff;
   border-radius:42px;
 }
-button.shopify-payment-button__button {
+button.shopify-payment-button__button,
+button.shopify-payment-button__button::before,
+button.shopify-payment-button__button::after{
     border-radius: 42px!important;
 }
 .product-form__buttons .product-form__submit.button--secondary:hover::after,
 .product-form__buttons .shopify-payment-button__button--unbranded:hover::after,
 .product-form__buttons .shopify-payment-button__button--unbranded:hover::before,
-.product-form__buttons .product-form__submit.button--secondary::hover:before{
+.product-form__buttons .product-form__submit.button--secondary:hover::before{
   box-shadow:none!important;
 }
 
