@@ -3310,6 +3310,7 @@ h2.banner__overheading {
 slideshow-component .slider-counter__link--dots .dot {
     width: 16px;
     height: 16px;
+    border: 3px solid rgba(var(--color-foreground),.5);
 }
 
 
