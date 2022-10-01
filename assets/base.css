@@ -3307,8 +3307,10 @@ h2.banner__overheading {
     opacity: 0.5;
     margin-bottom:10px;
 }
-
-
+slideshow-component .slider-counter__link--dots .dot {
+    width: 16px;
+    height: 16px;
+}
 
 
 
