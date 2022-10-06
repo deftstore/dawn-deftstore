@@ -3333,7 +3333,11 @@ slideshow-component .slider-counter__link--dots .dot {
     height: 16px;
     border-width: 3px;
 }
-
+@media(max-width:767px){
+  h2.banner__overheading {
+    font-size: 30px!important;
+}
+}
 
 
 
