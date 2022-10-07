@@ -3340,7 +3340,9 @@ slideshow-component .slider-counter__link--dots .dot {
     font-size: 22px;
 }
 }
-
+slideshow-component.slider-mobile-gutter {
+    z-index: 0;
+}
 
 
 
