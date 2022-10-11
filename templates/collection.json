@@ -18,32 +18,10 @@
             "heading": "Products",
             "heading_size": "h1"
           }
-        },
-        "166392858775e04505-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "166392858775e04505-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "166392858775e04505-0",
-        "166392858775e04505-1",
-        "166392858775e04505-2"
+        "166392858775e04505-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/business-people-walking-in-city.jpg",
