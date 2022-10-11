@@ -790,6 +790,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dc87e6e9-22c7-496c-b0f8-ff3a6c44d98a": {
+      "type": "Collection-Text",
+      "blocks": {
+        "template--15795643580616__dc87e6e9-22c7-496c-b0f8-ff3a6c44d98a-1665463432dabb0715-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15795643580616__dc87e6e9-22c7-496c-b0f8-ff3a6c44d98a-1665463432dabb0715-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "cus_class": "",
+        "space_around": true,
+        "alt": false,
+        "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>"
+      }
     }
   },
   "order": [
@@ -806,6 +827,7 @@
     "16634139539fcd6562",
     "1663149817bcbe601f",
     "1663227203c5831e62",
-    "1663307132ce7eb189"
+    "1663307132ce7eb189",
+    "dc87e6e9-22c7-496c-b0f8-ff3a6c44d98a"
   ]
 }
