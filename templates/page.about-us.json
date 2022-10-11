@@ -23,24 +23,11 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. <\/p>"
           }
-        },
-        "1663924962a2de9b3e-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "1663924962a2de9b3e-0",
-        "1663924962a2de9b3e-1",
-        "1663924962a2de9b3e-2"
+        "1663924962a2de9b3e-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -66,24 +53,11 @@
           "settings": {
             "text": "<p>If you know how powerful a picture\/video will become, you will certainly add it to your About Us page. Adding a picture\/video not only helps to boost conversion and sales (by attracting customers), but also shows great ROI, builds trust, and is good for SEO. Therefore, if you’ve invested in a video that helps potential customers get to know your business or your products, your About Us page Shopify is a good home for it as well. <\/p><p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p><p>If you know how powerful a picture\/video will become, you will certainly add it to your About Us page. Adding a picture\/video not only helps to boost conversion and sales (by attracting customers), but also shows great ROI, builds trust, and is good for SEO. Therefore, if you’ve invested in a video that helps potential customers get to know your business or your products, your About Us page Shopify is a good home for it as well. <\/p>"
           }
-        },
-        "166392535036f5fcac-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "166392535036f5fcac-0",
-        "166392535036f5fcac-1",
-        "166392535036f5fcac-2"
+        "166392535036f5fcac-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -155,20 +129,11 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
-        },
-        "16639267989fe8f7e8-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "16639267989fe8f7e8-0",
-        "16639267989fe8f7e8-1",
-        "16639267989fe8f7e8-2"
+        "16639267989fe8f7e8-1"
       ],
       "settings": {
         "fullwidth": true,
@@ -201,24 +166,11 @@
             "text": "Max Abdullah -- CEO Medisene",
             "text_style": "body"
           }
-        },
-        "1663925523a902e297-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "1663925523a902e297-0",
-        "1663925523a902e297-1",
-        "1663925523a902e297-2"
+        "1663925523a902e297-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hand-holds-a-pencil-ready-to-write-at-a-desk.jpg",
