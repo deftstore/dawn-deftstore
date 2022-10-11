@@ -41,7 +41,7 @@
           assign block_width = 'one-whole'
       endcase
     -%}  
-      {% if block.settings.collection != blank %}
+      
       <div class="img-grid">
         <div class="custom__item-inner custom__item-inner--{{ block.type }}{% if block.settings.image == blank and block.type == 'image' %} custom__item-inner--placeholder-image{% endif %}">
           <div class="grid-column">
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-        {% endif %}
+      
     {%- endfor -%}
     </div>
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
