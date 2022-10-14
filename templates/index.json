@@ -85,6 +85,7 @@
         "16637592971a753ead-0": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/showroom.png",
             "title": "ecommerce Shop",
             "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
@@ -95,6 +96,7 @@
         "16637592971a753ead-1": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/shipped.png",
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. <\/p>",
@@ -105,6 +107,7 @@
         "16637592971a753ead-2": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/discount.png",
             "title": "50% Discount",
             "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
@@ -115,6 +118,7 @@
         "b0c513c4-3866-4af7-b3eb-6a9014c76cb1": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/gift-card.png",
             "title": "Gift Cards",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
@@ -228,7 +232,8 @@
         "space_around": true,
         "alt": false,
         "cheading": "Collection Heading",
-        "csubtext": "your subtext write here, loreum ipsum"
+        "csubtext": "your subtext write here, loreum ipsum",
+        "csubcont": "Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store."
       }
     },
     "multicolumn": {
@@ -237,6 +242,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/hgtv.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -247,6 +253,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/athleisure.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -257,6 +264,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/msn.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -267,6 +275,7 @@
         "da87d993-fdcc-4d57-8881-508939cb9653": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "image": "shopify:\/\/shop_images\/worth.png",
             "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -623,6 +632,7 @@
         "16631498171df9e580-0": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "title": "",
             "text": "<p><strong>\"<br\/>Contrary to popular belief, Lorem Ipsum <\/strong>is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p><p><strong>JACOB<\/strong><\/p>",
             "link_label": "",
@@ -632,6 +642,7 @@
         "16631498171df9e580-1": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "title": "",
             "text": "<p><strong>\"<br\/>Contrary to popular belief, Lorem Ipsum <\/strong>is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p><p><strong>EMILYSEN<\/strong><\/p>",
             "link_label": "",
@@ -641,6 +652,7 @@
         "16631498171df9e580-2": {
           "type": "column",
           "settings": {
+            "showimg": true,
             "title": "",
             "text": "<p><strong>\"<br\/>Contrary to popular belief, Lorem Ipsum <\/strong>is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<\/p><p><strong>MARCOS<\/strong><\/p>",
             "link_label": "",
@@ -791,49 +803,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "66eb84ca-8aaf-4045-9c96-886a1cdea911": {
-      "type": "Collection-Text",
-      "blocks": {
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-3": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-0",
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-1",
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-2",
-        "template--15795643580616__66eb84ca-8aaf-4045-9c96-886a1cdea911-1665729903bd48e190-3"
-      ],
-      "settings": {
-        "full_width": false,
-        "cus_class": "",
-        "space_around": true,
-        "alt": false,
-        "cheading": "Collection Heading",
-        "csubtext": "your subtext write here, loreum ipsum"
-      }
     }
   },
   "order": [
@@ -850,7 +819,6 @@
     "16634139539fcd6562",
     "1663149817bcbe601f",
     "1663227203c5831e62",
-    "1663307132ce7eb189",
-    "66eb84ca-8aaf-4045-9c96-886a1cdea911"
+    "1663307132ce7eb189"
   ]
 }
