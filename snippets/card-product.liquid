@@ -91,6 +91,8 @@
                   width="{{ card_product.media[1].width }}"
                   height="{{ card_product.media[1].height }}"
                 >
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
             </div>
           </div>
