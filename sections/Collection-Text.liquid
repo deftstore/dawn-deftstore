@@ -16,8 +16,13 @@
              <h2>{{ section.settings.cheading }}</h2>
            {% endif %}
            {%- if section.settings.csubtext != blank -%}
-               <p class="subtext">
+               <p class="sub-text">
                  {{ section.settings.csubtext | strip_html }}
+               </p>
+            {%- endif %}
+            {%- if section.settings.csubcont != blank -%}
+               <p>
+                 {{ section.settings.csubcont | strip_html }}
                </p>
             {%- endif %}
           </div>
@@ -126,6 +131,12 @@
           "type": "text",
           "id": "csubtext",
           "default": "your subtext write here, loreum ipsum",
+          "label": "Subtext"
+      },
+      {
+          "type": "text",
+          "id": "csubcont",
+          "default": "Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.",
           "label": "Subtext"
       }
     ],
