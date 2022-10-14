@@ -11,9 +11,12 @@
   <div class="custom-collection">
     <div class="custom__item small--one-whole two-fifths align--center text-left part-left">      
        <div class="left-part-sec">
-         {%- if section.settings.code != blank -%}
+         {%- if section.settings.code-heading != blank -%}
            <div class="rte">
-             {{ section.settings.code }}
+             <h2>{{ section.settings.code-heading }}</h2>
+             <p class="subtext">
+               {{ section.settings.code-subtext }}
+             </p>
            </div>
            {%- else %}
               <div class="rte">
@@ -116,12 +119,15 @@
         "label": "Use alternate section color"
       },
       {
-            "type": "liquid",
-            "id": "code",
-            "label": "HTML",
-            "default": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
-            "info": "Supports Liquid"
-          }
+          "type": "text",
+          "id": "code-heading",
+          "label": "Heading"
+      },
+      {
+          "type": "richtext",
+          "id": "code-subtext",
+          "label": "Subtext"
+      }
     ],
     "blocks": [
       
