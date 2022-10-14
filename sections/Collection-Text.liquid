@@ -11,17 +11,13 @@
   <div class="custom-collection">
     <div class="custom__item small--one-whole two-fifths align--center text-left part-left">      
        <div class="left-part-sec">
-         {%- if section.settings.code-heading != blank -%}
-           <div class="rte">
-             <h2>{{ section.settings.code-heading }}</h2>
+         {%- if section.settings.cheading != blank -%}
+           <h2>{{ section.settings.cheading }}</h2>
+         {% endif %}
+         {%- if section.settings.csubtext != blank -%}
              <p class="subtext">
-               {{ section.settings.code-subtext }}
+               {{ section.settings.csubtext | strip_html }}
              </p>
-           </div>
-           {%- else %}
-              <div class="rte">
-                {{ 'home_page.onboarding.no_content' | t }}
-              </div>
           {%- endif %}
         </div>
     </div>
@@ -120,12 +116,14 @@
       },
       {
           "type": "text",
-          "id": "code-heading",
+          "id": "cheading",
+          "default": "Collection Heading",
           "label": "Heading"
       },
       {
-          "type": "richtext",
-          "id": "code-subtext",
+          "type": "text",
+          "id": "csubtext",
+          "default": "Collection Sub-Heading",
           "label": "Subtext"
       }
     ],
