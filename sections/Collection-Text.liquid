@@ -11,14 +11,16 @@
   <div class="custom-collection">
     <div class="custom__item small--one-whole two-fifths align--center text-left part-left">      
        <div class="left-part-sec">
-         {%- if section.settings.cheading != blank -%}
-           <h2>{{ section.settings.cheading }}</h2>
-         {% endif %}
-         {%- if section.settings.csubtext != blank -%}
-             <p class="subtext">
-               {{ section.settings.csubtext | strip_html }}
-             </p>
-          {%- endif %}
+         <div class="rte">
+           {%- if section.settings.cheading != blank -%}
+             <h2>{{ section.settings.cheading }}</h2>
+           {% endif %}
+           {%- if section.settings.csubtext != blank -%}
+               <p class="subtext">
+                 {{ section.settings.csubtext | strip_html }}
+               </p>
+            {%- endif %}
+          </div>
         </div>
     </div>
     
