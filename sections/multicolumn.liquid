@@ -66,7 +66,6 @@
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}>
-                    {% if block.settings.image != blank %}
                     <img
                       class="multicolumn-card__image"
                       srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
@@ -83,11 +82,10 @@
                       width="{{ block.settings.image.width }}"
                       loading="lazy"
                     >
-                    {%- else -%}
-                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                    {%- endif -%}
                   </div>
                 </div>
+               {%- else -%}
+                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
