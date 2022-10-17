@@ -208,11 +208,6 @@
         "padding_bottom": 36
       }
     },
-    "horizontal-tabs": {
-      "type": "horizontal-tabs",
-      "settings": {
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -284,7 +279,6 @@
     "multicolumn",
     "image-with-text",
     "product-recommendations",
-    "horizontal-tabs",
     "1663929155af82d3a1"
   ]
 }
