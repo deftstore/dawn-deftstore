@@ -345,9 +345,9 @@
             {%- when 'counter' -%}
             {% include 'countdown-timer', 
 
-              title: "{{ block.settings.stext }}", 
+              title: block.settings.stext, 
           
-              end_date:"{{ block.settings.sdate }}" 
+              end_date: block.settings.sdate 
           
              %} 
             <!-- end counter              -->
