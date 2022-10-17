@@ -341,6 +341,15 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
+            <!--  start counter -->
+            {% include 'countdown-timer', 
+
+              title: "Special Offer End In", 
+          
+              end_date: "Dec 31, 2020" 
+          
+             %} 
+            <!-- end counter              -->
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
