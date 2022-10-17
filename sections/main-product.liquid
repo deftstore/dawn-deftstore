@@ -341,6 +341,9 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
+            <!--  start afterpay -->
+            {%- include 'afterpay' -%}
+            <!--  end afterpay -->
             <!--  start counter -->
             {%- when 'counter' -%}
             {% include 'countdown-timer', 
