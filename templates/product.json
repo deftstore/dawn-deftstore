@@ -27,6 +27,13 @@
           "settings": {
           }
         },
+        "03bc223d-b2f1-45b9-8d01-1789562c7bbc": {
+          "type": "counter",
+          "settings": {
+            "stext": "<p>Special offers end in<\/p>",
+            "sdate": "Dec 26,2022"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -97,6 +104,7 @@
         "title",
         "caption",
         "price",
+        "03bc223d-b2f1-45b9-8d01-1789562c7bbc",
         "description",
         "variant_picker",
         "quantity_selector",
@@ -146,6 +154,7 @@
         "column-1"
       ],
       "settings": {
+        "showimg": true,
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
