@@ -90,7 +90,7 @@
 
    } 
 
-   .timer-block { 
+/*    .timer-block { 
 
      position: relative; 
 
@@ -110,7 +110,22 @@
 
      } 
 
-   } 
+   }  */
+   .timer-block {
+    position: relative;
+    width: auto;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items:center;
+    &: not(:last-child):after {
+    align-items: center;
+    content: ':';
+    position: absolute;
+    right: 0;
+    top: 3px;
+    }
+};
 
    .timer-block__num, 
 
