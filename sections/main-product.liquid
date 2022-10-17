@@ -342,11 +342,12 @@
                 {%- endform -%}
               </div>
             <!--  start counter -->
+            {%- when 'counter' -%}
             {% include 'countdown-timer', 
 
-              title: "Special Offer End In", 
+              title: "{{ block.settings.stext }}", 
           
-              end_date: "Oct 19, 2022" 
+              end_date: "{{ block.settings.sdate }}" 
           
              %} 
             <!-- end counter              -->
@@ -1094,14 +1095,16 @@
       "name": "Counter",
       "settings": [
         {
-          "type": "richtext",
+          "type": "text",
           "id": "stext",
-          "label": "Sale Text"
+          "label": "Sale Text",
+          "default": "Sales end in"
         },
         {
           "type": "text",
           "id": "sdate",
-          "label": "Sale Ends Date"
+          "label": "Sale Ends Date",
+          "default": "Dec 25,2022"
         }
       ]
     },
