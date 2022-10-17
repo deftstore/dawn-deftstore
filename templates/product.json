@@ -30,8 +30,8 @@
         "03bc223d-b2f1-45b9-8d01-1789562c7bbc": {
           "type": "counter",
           "settings": {
-            "stext": "<p>Special offers end in<\/p>",
-            "sdate": "Dec 26,2022"
+            "stext": "Special offers end in",
+            "sdate": "Dec 27,2022"
           }
         },
         "description": {
