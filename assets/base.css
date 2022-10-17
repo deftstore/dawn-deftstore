@@ -3343,8 +3343,11 @@ slideshow-component .slider-counter__link--dots .dot {
 slideshow-component.slider-mobile-gutter {
     z-index: 0;
 }
-
-
+/*afterpay  */
+span.afterpay svg {
+    max-width: 120px;
+    object-fit: contain;
+}
 
 
 
