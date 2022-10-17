@@ -139,7 +139,7 @@
        x = setInterval(function() { 
 
        var now = new Date().getTime(), 
-           distance1 = Math.abs(countDown - now),
+           distance1 = Math.abs(now - countDown),
            distance = distance1; 
 
      document.querySelector('.js-timer-days').innerText = Math.floor(distance / (day)), 
