@@ -130,13 +130,13 @@
     "horizontal-tabs": {
       "type": "horizontal-tabs",
       "settings": {
-        "tabh1": "tab1",
+        "tabh1": "Description",
         "tabc1": "<p> Enter Product Description Over Here.<\/p>",
-        "tabh2": "tab2",
+        "tabh2": "Key Info",
         "tabc2": "<p>Enter Size Chart Over here table, images, etc.<\/p>",
-        "tabh3": "tab3",
+        "tabh3": "Reviews",
         "tabc3": "<p>Enter Shipping & Returns details over here.<\/p>",
-        "tabh4": "tab4",
+        "tabh4": "Shipping",
         "tabc4": "<p>Enter youtube video , vimeo ,etc embed code.<\/p>"
       }
     },
