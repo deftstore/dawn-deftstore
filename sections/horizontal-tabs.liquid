@@ -1,23 +1,39 @@
 <div id="tabs-section">
   <div class="page-width">
     <ul class="shopify-tabs">
-      <li class="current" data-tab="tab1">{{ section.settings.tabh1 }}</li>
-      <li data-tab="tab2">{{ section.settings.tabh2 }}</li>
-      <li data-tab="tab3">{{ section.settings.tabh3 }}</li>
-      <li data-tab="tab4">{{ section.settings.tabh4 }}</li>
+      {% if section.settings.tabh1 != blank %}
+        <li class="current" data-tab="tab1">{{ section.settings.tabh1 }}</li>
+      {% endif %}
+      {% if section.settings.tabh2 != blank %}
+        <li data-tab="tab2">{{ section.settings.tabh2 }}</li>
+      {% endif %}
+      {% if section.settings.tabh3 != blank %}
+        <li data-tab="tab3">{{ section.settings.tabh3 }}</li>
+      {% endif %}
+      {% if section.settings.tabh4 != blank %}
+        <li data-tab="tab4">{{ section.settings.tabh4 }}</li>
+      {% endif %}
     </ul>
-    <div id="tab1" class="shopify-tab-content current">
+    {% if section.settings.tabc1 != blank %}
+      <div id="tab1" class="shopify-tab-content current">
       {{ section.settings.tabc1 }}
     </div>
-    <div id="tab2" class="shopify-tab-content">
+     {% endif %}
+    {% if section.settings.tabc2 != blank %}
+      <div id="tab2" class="shopify-tab-content">
       {{ section.settings.tabc2 }}
     </div>
-    <div id="tab3" class="shopify-tab-content">
+     {% endif %}
+    {% if section.settings.tabc3 != blank %}
+      <div id="tab3" class="shopify-tab-content">
       {{ section.settings.tabc3 }}
     </div>
-    <div id="tab4" class="shopify-tab-content">
+     {% endif %}
+    {% if section.settings.tabc4 != blank %}
+      <div id="tab4" class="shopify-tab-content">
       {{ section.settings.tabc4 }}
     </div>
+     {% endif %}
   </div>
 </div>
 <style>
@@ -75,7 +91,6 @@ ul.shopify-tabs > li.current{
        {
           "type": "text",
           "id": "tabh1",
-          "default": "tab1",
           "label": "Tab Heading"
         },
        {
@@ -86,7 +101,6 @@ ul.shopify-tabs > li.current{
        {
           "type": "text",
           "id": "tabh2",
-          "default": "tab2",
           "label": "Tab Heading"
         },
       {
@@ -97,7 +111,6 @@ ul.shopify-tabs > li.current{
       {
           "type": "text",
           "id": "tabh3",
-          "default": "tab3",
           "label": "Tab Heading"
         },
        {
@@ -108,7 +121,6 @@ ul.shopify-tabs > li.current{
         {
             "type": "text",
             "id": "tabh4",
-            "default": "tab4",
             "label": "Tab Heading"
         },
         {
