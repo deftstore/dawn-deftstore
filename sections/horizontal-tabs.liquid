@@ -1,21 +1,21 @@
 <div>
   <ul class="shopify-tabs">
-    <li class="current" data-tab="tab-description">Description</li>
-    <li data-tab="tab-specs">Product Specs</li>
-    <li data-tab="tab-delivery">Delivery</li>
-    <li data-tab="tab-returns">Returns</li>
+    <li class="current" data-tab="tab-description"{{ section.settings.tabh1 }}</li>
+    <li data-tab="tab-specs">{{ section.settings.tabh2 }}</li>
+    <li data-tab="tab-delivery">{{ section.settings.tabh3 }}</li>
+    <li data-tab="tab-returns">{{ section.settings.tabh4 }}</li>
   </ul>
   <div id="tab-description" class="shopify-tab-content current">
-    Description tab content
+    {{ section.settings.tabc1 }}
   </div>
   <div id="tab-specs" class="shopify-tab-content">
-    Specs tab content
+    {{ section.settings.tabc2 }}
   </div>
   <div id="tab-delivery" class="shopify-tab-content">
-    Delivery tab content
+    {{ section.settings.tabc3 }}
   </div>
   <div id="tab-returns" class="shopify-tab-content">
-    Returns tab content
+    {{ section.settings.tabc4 }}
   </div>
 </div>
 <style>
