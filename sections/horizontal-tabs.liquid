@@ -1,21 +1,23 @@
-<div>
-  <ul class="shopify-tabs">
-    <li class="current" data-tab="tab1">{{ section.settings.tabh1 }}</li>
-    <li data-tab="tab2">{{ section.settings.tabh2 }}</li>
-    <li data-tab="tab3">{{ section.settings.tabh3 }}</li>
-    <li data-tab="tab4">{{ section.settings.tabh4 }}</li>
-  </ul>
-  <div id="tab1" class="shopify-tab-content current">
-    {{ section.settings.tabc1 }}
-  </div>
-  <div id="tab2" class="shopify-tab-content">
-    {{ section.settings.tabc2 }}
-  </div>
-  <div id="tab3" class="shopify-tab-content">
-    {{ section.settings.tabc3 }}
-  </div>
-  <div id="tab4" class="shopify-tab-content">
-    {{ section.settings.tabc4 }}
+<div id="tabs-section">
+  <div class="page-width">
+    <ul class="shopify-tabs">
+      <li class="current" data-tab="tab1">{{ section.settings.tabh1 }}</li>
+      <li data-tab="tab2">{{ section.settings.tabh2 }}</li>
+      <li data-tab="tab3">{{ section.settings.tabh3 }}</li>
+      <li data-tab="tab4">{{ section.settings.tabh4 }}</li>
+    </ul>
+    <div id="tab1" class="shopify-tab-content current">
+      {{ section.settings.tabc1 }}
+    </div>
+    <div id="tab2" class="shopify-tab-content">
+      {{ section.settings.tabc2 }}
+    </div>
+    <div id="tab3" class="shopify-tab-content">
+      {{ section.settings.tabc3 }}
+    </div>
+    <div id="tab4" class="shopify-tab-content">
+      {{ section.settings.tabc4 }}
+    </div>
   </div>
 </div>
 <style>
