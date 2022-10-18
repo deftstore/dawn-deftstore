@@ -1,90 +1,48 @@
 <div>
-  <ul class="tabs">
-    <li><a href="#tab-1">Info</a></li>
-    <li><a href="#tab-2">Shipping</a></li>
-    <li><a href="#tab-3">Returns</a></li>
+  <ul class="shopify-tabs">
+    <li class="current" data-tab="tab-description">Description</li>
+    <li data-tab="tab-specs">Product Specs</li>
+    <li data-tab="tab-delivery">Delivery</li>
+    <li data-tab="tab-returns">Returns</li>
   </ul>
-  <div id="tab-1">
-  one
+  <div id="tab-description" class="shopify-tab-content current">
+    Description tab content
   </div>
-  <div id="tab-2">
-  two
+  <div id="tab-specs" class="shopify-tab-content">
+    Specs tab content
   </div>
-  <div id="tab-3">
-  three
+  <div id="tab-delivery" class="shopify-tab-content">
+    Delivery tab content
+  </div>
+  <div id="tab-returns" class="shopify-tab-content">
+    Returns tab content
   </div>
 </div>
 <style>
-  <style>
-ul.tabs {
-  border-bottom: 1px solid #DDDDDD;
-  display: block;
-  margin: 0 0 20px;
-  padding: 0;
+ul.shopify-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
-ul.tabs li {
-  display: block;
-  float: left;
-  height: 30px;
-  margin-bottom: 0;
-  padding: 0;
-  width: auto;
+ul.shopify-tabs > li{
+    background: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
 }
-ul.tabs li a {
-  -moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background: none repeat scroll 0 0 #F5F5F5;
-  border-color: #DDDDDD !important;
-  border-style: solid;
-  border-width: 1px 1px 0 1px;
-  display: block;
-  font-size: 13px;
-  height: 29px;
-  line-height: 30px;
-  margin: 0;
-  padding: 0 20px;
-  text-decoration: none;
-  width: auto;
-  color: #303030;
-  border-bottom:none !important;
+ul.shopify-tabs > li.current{
+    background: #f0f0f0;
+    color: #333;
 }
-ul.tabs li a.active {
-  background: none repeat scroll 0 0 #FFFFFF;
-  border-left-width: 1px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  color: #111111;
-  height: 30px;
-  margin: 0 0 0 -1px;
-  padding-top: 4px;
-  position: relative;
-  top: -4px;
+.shopify-tab-content{
+    display: none;
+    background: #f0f0f0;
+    padding: 15px;
 }
-ul.tabs li:first-child a.active {
-  margin-left: 0;
+.shopify-tab-content.current{
+    display: block;
 }
-ul.tabs li:first-child a {
-  border-top-left-radius: 2px;
-  border-width: 1px 1px 0;
-}
-ul.tabs li:last-child a {
-  border-top-right-radius: 2px;
-}
-ul.tabs:before, ul.tabs:after {
-  content: " ";
-  display: block;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-}
-ul.tabs:after {
-  clear: both;
-}
-</style>
 </style>
 {% schema %}
   {
